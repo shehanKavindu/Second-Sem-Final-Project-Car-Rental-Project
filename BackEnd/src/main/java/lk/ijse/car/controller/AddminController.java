@@ -12,4 +12,13 @@ import org.springframework.web.bind.annotation.*;
 public class AdminController {
 
     @Autowired
-    private AdminService service;
+    private AdminService service
+
+    @ResponseStatus(HttpStatus.CREATED)
+    @PostMapping(produces = MediaType.APPLICATION_JSON_VALUE)
+    public ResponseUtil saveAdmin(@RequestBody AdminDTO dto) {
+        service.saveAdmin(dto);
+        System.out.println(dto);
+        return new ResponseUtil("OK", "Successfully Registered.!", null);
+    }
+}
