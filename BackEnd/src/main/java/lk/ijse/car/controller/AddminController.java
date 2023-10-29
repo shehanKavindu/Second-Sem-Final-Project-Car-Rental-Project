@@ -22,4 +22,4 @@ public class AdminController {
         return new ResponseUtil("OK", "Successfully Registered.!", null);
     }
 }
-}
+
