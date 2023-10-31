@@ -50,7 +50,8 @@ public class Reg_UserController {
 
     @ResponseStatus(HttpStatus.CREATED)
     @GetMapping(path = "/reg_UserIdGenerate")
-    public @ResponseBody CustomDTO customerIdGenerate() {
+    public @ResponseBody
+    CustomDTO customerIdGenerate() {
         return service.userIdGenerate();
     }
 
@@ -62,7 +63,9 @@ public class Reg_UserController {
 
     @ResponseStatus(HttpStatus.CREATED)
     @GetMapping(path = "/customerCount")
-    public @ResponseBody CustomDTO getSumCustomer() {
+    public @ResponseBody
+    CustomDTO getSumCustomer() {
         return service.getSumUser();
     }
 
+}
