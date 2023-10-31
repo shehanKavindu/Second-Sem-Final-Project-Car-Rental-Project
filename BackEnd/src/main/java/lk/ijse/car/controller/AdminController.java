@@ -37,8 +37,6 @@ public class AdminController {
 
     @ResponseStatus(HttpStatus.CREATED)
     @GetMapping
-    public ResponseUtil getAllAdmin() {
-        return new ResponseUtil("OK", "Successfully Loaded. :", service.getAllAdmin());
-    }
+
 
 }
