@@ -24,7 +24,10 @@ public class LoginController {
         return new ResponseUtil("OK","Successfully Loaded..!","");
     }
 
-
+    @GetMapping(path = "current")
+    public ResponseUtil getCurrentUser(){
+        return new ResponseUtil("OK","Successfully Loaded..!",CurrentUser.currentUser);
+    }
 
 
 
