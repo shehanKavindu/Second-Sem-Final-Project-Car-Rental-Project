@@ -70,4 +70,10 @@ public class RentController {
         return new ResponseUtil("OK", "Successfully Conformed.!", null);
     }
 
+    @ResponseStatus(HttpStatus.CREATED)
+    @GetMapping(path = "/searchDtails", params = {"search_Id"})
+    public RentDTO searchId(String search_Id) {
+        return service.searchId(search_Id);
+    }
 
+}
