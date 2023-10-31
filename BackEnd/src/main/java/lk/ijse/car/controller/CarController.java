@@ -107,4 +107,9 @@ public class CarController {
         return service.getFilerData(category_type, fuel_Type);
     }
 
+    @ResponseStatus(HttpStatus.CREATED)
+    @GetMapping(path = "/filterDetails", params = {"name", "fuel_Type","type", "transmission_Type"})
+    public ArrayList<CarDTO> filterCarDetails(@RequestParam String name, @RequestParam String fuel_Type, @RequestParam String type, @RequestParam String transmission_Type) {
+        return service.filterCarDetails(name, fuel_Type,type,transmission_Type);
+    }
 }
