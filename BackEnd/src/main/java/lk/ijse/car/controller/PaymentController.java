@@ -27,4 +27,9 @@ public class PaymentController {
         return new ResponseUtil("OK", "Successfully Payment.!", null);
     }
 
+    @ResponseStatus(HttpStatus.CREATED)
+    @GetMapping
+    public ResponseUtil getAllPayment() {
+        return new ResponseUtil("OK", "Successfully Loaded. :", service.getAllPayment());
+    }
 }
