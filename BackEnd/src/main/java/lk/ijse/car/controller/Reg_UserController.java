@@ -66,4 +66,3 @@ public class Reg_UserController {
         return service.getSumUser();
     }
 
-}
