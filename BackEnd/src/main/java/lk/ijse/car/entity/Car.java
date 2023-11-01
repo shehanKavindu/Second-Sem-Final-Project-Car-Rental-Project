@@ -1,6 +1,8 @@
 package lk.ijse.car.entity;
 
 
+import lk.ijse.car.embeded.Image;
+import lk.ijse.car.embeded.Rate;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -29,7 +31,7 @@ public class Car {
     @Enumerated(EnumType.STRING)
     private FuelType fuel_Type;
     @Embedded
-    private Rate rent_Duration_Price;
+    private gRate rent_Duration_Price;
     private double price_Extra_KM;
     private String registration_Number;
     private double free_Mileage;
