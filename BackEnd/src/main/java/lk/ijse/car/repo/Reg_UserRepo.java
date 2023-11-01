@@ -1,5 +1,6 @@
 package lk.ijse.car.repo;
 
+import lk.ijse.car.dto.Reg_UserDTO;
 import lk.ijse.car.entity.Reg_User;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
