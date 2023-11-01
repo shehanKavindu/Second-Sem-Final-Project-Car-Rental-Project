@@ -23,7 +23,7 @@ public class Rent {
     private LocalDate returnDate;
     private LocalTime returnTime;
     @Enumerated(EnumType.STRING)
-    g
+    private RequestType requestType;
     @Enumerated(EnumType.STRING)
     private RentRequest rentType;
     private String location;
