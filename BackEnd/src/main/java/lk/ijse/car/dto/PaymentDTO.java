@@ -18,7 +18,7 @@ public class PaymentDTO {
 
     private String paymentID;
     private RentDTO rentID;
-
+    private PaymentType paymentType;
     private LocalDate date;
     private LocalTime time;
     private Double lostDamage;
