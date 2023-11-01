@@ -13,5 +13,5 @@ import lombok.ToString;
 public class IncomeDTO {
     private String date;
     private int count;
-
+    private double total;
 }
