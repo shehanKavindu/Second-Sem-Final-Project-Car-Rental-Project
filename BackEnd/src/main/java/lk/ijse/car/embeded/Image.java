@@ -16,5 +16,4 @@ public class Image {
     private String front_View;
     private String back_View;
     private String side_View;
-    private String interior;
-}
+
