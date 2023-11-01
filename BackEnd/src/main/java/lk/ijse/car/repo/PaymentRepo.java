@@ -8,4 +8,3 @@ public interface PaymentRepo extends JpaRepository<Payment, String> {
     @Query(value = "SELECT paymentID FROM Payment ORDER BY paymentID DESC LIMIT 1", nativeQuery = true)
     String getLastIndex();
 }
-}
