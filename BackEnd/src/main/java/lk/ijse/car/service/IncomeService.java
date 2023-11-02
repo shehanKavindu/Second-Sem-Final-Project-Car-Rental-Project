@@ -9,3 +9,4 @@ public interface IncomeService {
     ArrayList<IncomeDTO> monthlyIncome();
     ArrayList<IncomeDTO> AnnuallyIncome();
 }
+}
