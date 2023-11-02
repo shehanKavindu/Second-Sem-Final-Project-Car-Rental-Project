@@ -8,5 +8,6 @@ public interface IncomeService {
     ArrayList<IncomeDTO> dailyIncome();
     ArrayList<IncomeDTO> monthlyIncome();
     ArrayList<IncomeDTO> AnnuallyIncome();
+    ArrayList<IncomeDTO> AnnuallyIncome();
 }
 
