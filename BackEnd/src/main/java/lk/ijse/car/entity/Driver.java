@@ -1,5 +1,6 @@
 package lk.ijse.car.entity;
 import lk.ijse.car.embeded.Name;
+import lk.ijse.car.enums.AvailabilityType;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;

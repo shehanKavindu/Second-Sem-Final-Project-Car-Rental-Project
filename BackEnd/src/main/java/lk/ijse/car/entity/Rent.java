@@ -1,5 +1,7 @@
 package lk.ijse.car.entity;
 
+import lk.ijse.car.enums.RentRequest;
+import lk.ijse.car.enums.RequestType;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;

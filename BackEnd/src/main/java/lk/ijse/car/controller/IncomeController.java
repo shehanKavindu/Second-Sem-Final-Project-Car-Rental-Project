@@ -1,9 +1,12 @@
 package lk.ijse.car.controller;
 
+import lk.ijse.car.dto.IncomeDTO;
+import lk.ijse.car.service.IncomeService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.ArrayList;
 
 
 @RestController
@@ -15,7 +18,8 @@ public class IncomeController {
 
     @ResponseStatus(HttpStatus.CREATED)
     @GetMapping(path = "/dailyIncome")
-    public @ResponseBody ArrayList<IncomeDTO> dailyIncome() {
+    public @ResponseBody
+    ArrayList<IncomeDTO> dailyIncome() {
         return service.dailyIncome();
     }
 

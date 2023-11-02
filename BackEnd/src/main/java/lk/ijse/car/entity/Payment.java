@@ -1,6 +1,7 @@
 package lk.ijse.car.entity;
 
 
+import lk.ijse.car.enums.PaymentType;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;

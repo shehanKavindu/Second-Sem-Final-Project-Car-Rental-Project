@@ -1,5 +1,9 @@
 package lk.ijse.car.controller;
 
+import lk.ijse.car.dto.CustomDTO;
+import lk.ijse.car.dto.PaymentDTO;
+import lk.ijse.car.service.PaymentService;
+import lk.ijse.car.util.ResponseUtil;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
@@ -14,7 +18,8 @@ public class PaymentController {
 
     @ResponseStatus(HttpStatus.CREATED)
     @GetMapping(path = "/paymentIdGenerate")
-    public @ResponseBody CustomDTO customerIdGenerate() {
+    public @ResponseBody
+    CustomDTO customerIdGenerate() {
         return service.paymentIdGenerate();
     }
 

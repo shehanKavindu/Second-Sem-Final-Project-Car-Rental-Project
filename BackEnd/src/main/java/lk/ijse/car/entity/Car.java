@@ -3,6 +3,10 @@ package lk.ijse.car.entity;
 
 import lk.ijse.car.embeded.Image;
 import lk.ijse.car.embeded.Rate;
+import lk.ijse.car.enums.AvailabilityType;
+import lk.ijse.car.enums.CarType;
+import lk.ijse.car.enums.FuelType;
+import lk.ijse.car.enums.TransmissionType;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
