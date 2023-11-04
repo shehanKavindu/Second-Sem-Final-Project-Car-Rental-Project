@@ -7,11 +7,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="BackEnd (2)" />
-        <module name="BackEnd (1)" />
+        <module name="Back_End" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="Back_End" target="8" />
       <module name="BackEnd" target="8" />
       <module name="BackEnd (1)" target="8" />
       <module name="BackEnd (2)" target="8" />
