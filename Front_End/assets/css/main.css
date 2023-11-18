@@ -9,10 +9,10 @@
 /* Colors */
 
 :root {
-    --color-default: #212529;
-    --color-primary: blue;
-    --color-secondary: blue;
-    --color-primary-red: blue;
+    --color-default: #0000ff;
+    --color-primary:#0000ff;
+    --color-secondary: #0000ff;
+    --color-primary-red: #0000ff;
     --box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
 }
 
